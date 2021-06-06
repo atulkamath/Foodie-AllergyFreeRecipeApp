@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "year3",
+    "slug": "year3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nutrition-healthy-food-icon-vector-12208624-removebg-preview.png",
+    "splash": {
+      "image": "./assets/iPhone.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.allergyApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.allergyApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "39.0.0",
+    "platforms": ["ios", "android", "web"]
+  }
+}
